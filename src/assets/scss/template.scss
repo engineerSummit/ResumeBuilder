@@ -109,10 +109,21 @@ body {
   }
   .container-R {
     border-style: solid;
-    min-height: 900px;
-    min-width: 800px;
+    height: 900px;
+    min-width: 1000px;
     background-color: #C4C4C4;
     order: 2;
     align-self: center;
+    display: flex;
+    align-items: center;
+  justify-content: center;
+  overflow-y:scroll;
+  }
+  .page{
+    background-color: white;
+    width:950px;
+    height: 1500px;
+    margin-top: 10px;
+
   }
 }
