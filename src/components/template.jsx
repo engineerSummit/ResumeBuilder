@@ -6,7 +6,6 @@ import logo1 from '../assets/images/Mask Group.png'
 import mode from '../assets/images/mode.svg'
 import Rside from '../assets/images/Lside.svg'
 import Lside from '../assets/images/Rside.svg'
-import Sicon from '../assets/images/smallicon.png'
 
 const Template = () => {
 
@@ -35,7 +34,6 @@ const Template = () => {
         <img onClick={modehandler} title="LIGHT MODE" className="mode" id="modes" src={mode} alt="MODE ICON" />
         <img className="Rside" src={Rside} alt="illustration" />
         <img className="Lside" src={Lside} alt="illustration" />
-        {/* <img className="icons" src={Sicon} alt="icons" /> */}
 
         <Container />
 
