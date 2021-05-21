@@ -11,7 +11,7 @@ const Container = () => {
             <div class="template-R">
 
             </div>
-          </div>
+            </div>
         </div>
     )
 }
