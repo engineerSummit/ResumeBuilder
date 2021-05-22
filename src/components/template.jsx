@@ -1,12 +1,12 @@
 import React from 'react';
-import Footer from './Footer'
-import Buttons from './Buttons'
-import Container from './Container'
-import logo1 from '../assets/images/Mask Group.png'
-import mode from '../assets/images/mode.svg'
-import Rside from '../assets/images/Lside.svg'
-import Lside from '../assets/images/Rside.svg'
-import Sicon from '../assets/images/smallicon.png'
+import Footer from './Footer';
+import Buttons from './Buttons';
+import Container from './Container';
+import logo1 from '../assets/images/Mask Group.png';
+import mode from '../assets/images/mode.svg';
+import Rside from '../assets/images/Lside.svg';
+import Lside from '../assets/images/Rside.svg';
+
 
 const Template = () => {
 

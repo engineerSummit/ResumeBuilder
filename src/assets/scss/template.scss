@@ -117,13 +117,21 @@ body {
     display: flex;
     align-items: center;
   justify-content: center;
-  overflow-y:scroll;
-  }
+  overflow-x:hidden;
+  overflow-y: auto;
+  box-sizing: border-box;
+
   .page{
+    margin-top: auto;
     background-color: white;
     width:950px;
-    height: 1500px;
-    margin-top: 10px;
-
+    height: 1100px;
+    justify-content: center;
+    align-self: center;
+    
+  }
+  .template-L{
+    width: 70px;
+  }
   }
 }
