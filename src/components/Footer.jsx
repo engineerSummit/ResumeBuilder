@@ -17,7 +17,7 @@ const Footer = () => {
 
             <div className="ft-item3">
                 <p style={{ color: " #393E46", fontWeight: "bold" }}>Contact us</p>
-                <a href="officialengineersummit@gmail.com" target="blank">officialengineersummit@gmail.com</a>
+            <p style={{ color: " #fff"}}>officialengineersummit@gmail.com</p>
                 <p>New delhi</p>
             </div>
             <p className="line"></p>
