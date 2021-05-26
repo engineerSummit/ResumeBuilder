@@ -9,7 +9,6 @@ body {
   background-color: #393e46;
   justify-content: space-between;
 
-
   .quote {
     position: absolute;
     width: 555px;
@@ -22,9 +21,8 @@ body {
     font-weight: bold;
     font-size: 36px;
     line-height: 44px;
-    color: #00ADB5;
+    color: #00adb5;
     text-shadow: 2px 2px rgba(0, 0, 0, 0.5);
-
   }
 
   .logo {
@@ -49,7 +47,6 @@ body {
     width: 350px;
     height: 350px;
     justify-content: flex-end;
-
   }
 
   .Lside {
@@ -59,13 +56,13 @@ body {
     align-self: flex-end;
   }
 
-//   .icons{
-//     position: absolute;
-// width: 1510px;
-// height: 1465px;
-// left: 0px;
-// top: 0px;
-//   }
+  //   .icons{
+  //     position: absolute;
+  // width: 1510px;
+  // height: 1465px;
+  // left: 0px;
+  // top: 0px;
+  //   }
 
   .button1 {
     position: absolute;
@@ -79,7 +76,7 @@ body {
     letter-spacing: 3px;
     border: none;
     box-shadow: 2px 2px rgba(0, 0, 0, 0.5);
-   cursor: pointer;
+    cursor: pointer;
   }
 
   .button2 {
@@ -94,8 +91,7 @@ body {
     letter-spacing: 2px;
     border: none;
     box-shadow: 2px 2px rgba(0, 0, 0, 0.5);
-   cursor: pointer;
-
+    cursor: pointer;
   }
 
   .footer {
@@ -108,30 +104,44 @@ body {
     background: rgb(96, 185, 219);
   }
   .container-R {
+    
     border-style: solid;
-    height: 900px;
-    min-width: 1000px;
-    background-color: #C4C4C4;
+    height: 26cm;
+    min-width: 21.5cm;
+    background-color: #c4c4c4;
     order: 2;
     align-self: center;
     display: flex;
     align-items: center;
-  justify-content: center;
-  overflow-x:hidden;
-  overflow-y: auto;
-  box-sizing: border-box;
-
-  .page{
-    margin-top: auto;
-    background-color: white;
-    width:950px;
-    height: 1100px;
     justify-content: center;
-    align-self: center;
-    
-  }
-  .template-L{
-    width: 70px;
-  }
+    overflow-x: hidden;
+    overflow-y: auto;
+    box-sizing: border-box;
+
+    .page {
+      margin-top: auto;
+      background-color: white;
+      width: 21cm;
+      height: 29.7cm;
+      justify-content: center;
+      align-self: center;
+    }
+    .template-L {
+      width: 70px;
+      margin: 20px;
+
+      #Full-Name{
+        width:150px;
+
+      }
+      #Preferred-Role{
+        width:150px;
+
+      }
+      #Short-Intro{
+        width:150px;
+
+      }
+    }
   }
 }

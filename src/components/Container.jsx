@@ -1,35 +1,20 @@
-import React from 'react';
-import { makeStyles } from '@material-ui/core/styles';
-import TextField from '@material-ui/core/TextField';
+import React from "react";
 
-const useStyles = makeStyles((theme) => ({
-  root: {
-    '& > *': {
-      margin: theme.spacing(1),
-      width: '25ch',
-      fontStyle:'poppins',
-    },
-  },
-}));
+import TextField from "@material-ui/core/TextField";
 
 const Container = () => {
-  const classes = useStyles();
-    return (
-        <div className="container-R">
-          <div class="page">
-
-            <form className={classes.root} noValidate autoComplete="off">
-              <TextField id="standard-basic" label="Full Name" />
-            </form>
-            <div class="template-L">
-
-            </div>
-            <div class="template-R">
-
-            </div>
-          </div>
+  return (
+    <div className="container-R">
+      <div class="page">
+        <div class="template-L">
+          <TextField id="Full-Name" label="Full Name" variant="outlined" />
+          <TextField id="Preferred-Role" label="Preferred Role" variant="outlined" />
+          <TextField id="Short-Intro" label="Short Intro" variant="outlined" />
         </div>
-    )
-}
+        <div class="template-R"></div>
+      </div>
+    </div>
+  );
+};
 
 export default Container;
