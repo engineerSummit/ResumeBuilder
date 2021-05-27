@@ -1,5 +1,6 @@
 body {
   margin: 0;
+  box-sizing: border-box;
 }
 .wrapper {
   height: 150vh;
@@ -8,6 +9,7 @@ body {
   //align-items: center;
   background-color: #393e46;
   justify-content: space-between;
+
 
   .quote {
     position: absolute;
@@ -43,7 +45,7 @@ body {
   }
 
   .Rside {
-    order: 3;
+    order: 4;
     width: 350px;
     height: 350px;
     justify-content: flex-end;
@@ -103,13 +105,17 @@ body {
     align-items: flex-end;
     background: rgb(96, 185, 219);
   }
+  .palette{
+
+  }
+
   .container-R {
-    
+
     border-style: solid;
-    height: 26cm;
-    min-width: 21.5cm;
+    height: 28cm;
+    min-width: 23.5cm;
     background-color: #c4c4c4;
-    order: 2;
+    order: 3;
     align-self: center;
     display: flex;
     align-items: center;
@@ -125,21 +131,37 @@ body {
       height: 29.7cm;
       justify-content: center;
       align-self: center;
+      display: flex;
+
+      input{
+
+
+        padding: 10px;
+        border-bottom: none;
+      }
     }
     .template-L {
-      width: 70px;
-      margin: 20px;
+      width: 7cm;
+      float: left;
+      background: #2a9d8f;
 
-      #Full-Name{
-        width:150px;
-
+      h3{
+        margin-left:20px;
+        color: white;
       }
-      #Preferred-Role{
-        width:150px;
 
+    }
+    .template-R{
+      width: 14cm;
+      float: right;
+      display:flex;
+      flex-direction: column;
+      h3{
+        margin-left:20px;
       }
+
       #Short-Intro{
-        width:150px;
+
 
       }
     }
