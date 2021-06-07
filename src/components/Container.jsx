@@ -1,28 +1,22 @@
 import React from "react";
-import { jsPDF } from "jspdf";
-import {html2canvas} from "html2canvas";
+import * as jsPDF from 'jspdf';
+import * as html2canvas from 'html2canvas';
 import Input from "@material-ui/core/Input";
 
 const Container = (props) => {
 
 
   const print=()=> {
-		const filename  = "ThisIsYourPDFFilename.pdf";
-
-		html2canvas(document.querySelectorAll(".page")).then((canvas) => {
-			const pdf = new jsPDF(
-        {
-          orientation: 'p',
-          unit: 'mm',
-          format: 'a4',
-          putOnlyUsedFonts:true,
-          floatPrecision: 16 
-        }
-
-      );
-			pdf.addImage(canvas.toDataURL('image/png'), 'PNG', 0, 0, 211, 298);
-			pdf.save(filename);
-		});
+    const input = document.getElementById('page');
+   html2canvas(input)
+     .then((canvas) => {
+       const imgData = canvas.toDataURL('image/png');
+       const pdf = new jsPDF();
+       pdf.addImage(imgData, 'JPEG', 0, 0);
+       // pdf.output('dataurlnewwindow');
+       pdf.save("download.pdf");
+     })
+   ;
 	}
 
 // Variant
